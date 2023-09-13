@@ -1,45 +1,96 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { Link } from 'react-scroll';
+
+import letterJ from '../../assets/letter-j.png';
+import darkmodeLogo from '../../assets/darkmode.png';
+import lightmodeLogo from '../../assets/lightmode.png';
 
 export default function NavBar() {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
+
   return (
-    <nav className="fixed top-0 left-0 h-full bg-gray-800 w-16 flex flex-col justify-between p-4">
-      {/* Logo */}
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="mb-4">
-        <img
-          src="your-logo.png" // Replace with your logo image source
-          alt="Logo"
-          className="w-8 h-8"
-        />
+        <img src={letterJ} alt="Logo" style={{ width: '50px' }} />
       </div>
 
       {/* Navigation Links */}
-      <ul className="space-y-4 flex-1">
+
+      <ul className="hidden md:flex">
         <li>
-          <a href="#about" className="text-white hover:text-gray-300">
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#skills" className="text-white hover:text-gray-300">
+          <Link to="skills" smooth={true} duration={500}>
             Skills
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#contact" className="text-white hover:text-gray-300">
+          <Link to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
 
+      <div onClick={handleClick} className="md:hidden z-10">
+        {!nav ? <FaBars /> : <FaTimes />}
+      </div>
+
+      {/* Mobile Navigation Menu */}
+      <ul
+        className={
+          !nav
+            ? 'hidden'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center text-4xl'
+        }
+      >
+        <li className="py-6 text-4xl">Home</li>
+        <li className="py-6 text-4xl">About</li>
+        <li className="py-6 text-4xl">Skills</li>
+        <li className="py-6 text-4xl">Work</li>
+        <li className="py-6 text-4xl">Contact</li>
+      </ul>
+
+      {/* Social Media Links */}
+      <div className="flex fixed flex-col top=[35%] left-0">
+        <ul>
+          <li>
+            <a href="/">
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
       {/* Dark Mode Switch */}
-      <button
+      {/* <button
         className="bg-gray-600 text-white p-2 rounded-md"
         onClick={() => {
-          // Add your dark mode toggle logic here
+          setIsDarkMode(!isDarkMode);
         }}
       >
-        Dark Mode
-      </button>
-    </nav>
+        {isDarkMode ? (
+          <img src={lightmodeLogo} alt="Light Mode Logo" />
+        ) : (
+          <img src={darkmodeLogo} alt="Dark Mode Logo" />
+        )}
+      </button> */}
+    </div>
   );
 }
