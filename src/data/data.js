@@ -1,5 +1,9 @@
 import AngularMovieApp from '../assets/projects/angularmovieapp.png';
 import PokemonIndex from '../assets/projects/pokemonindex.png';
+import chatschatapp from '../assets/projects/chatschatapp.png';
+import mymovieapi from '../assets/projects/mymovieapi.png';
+import reactmovieapp from '../assets/projects/reactmovieapp.png';
+import meetapp from '../assets/projects/meetapp.png';
 
 export const data = [
   {
@@ -11,37 +15,37 @@ export const data = [
   },
   {
     id: 2,
-    name: 'React JS Application',
+    name: 'Vanilla JS Pokemon Index',
     image: PokemonIndex,
     github: 'https://github.com/JarJarDinks/pokemon-index',
     live: 'https://jarjardinks.github.io/pokemon-index/',
   },
   {
     id: 3,
-    name: 'React JS Application',
-    image: PokemonIndex,
-    github: '',
+    name: 'React Native Chat App',
+    image: chatschatapp,
+    github: 'https://github.com/JarJarDinks/ChatApp',
     live: '',
   },
   {
     id: 4,
-    name: 'React JS Application',
-    image: PokemonIndex,
-    github: '',
-    live: '',
+    name: 'Node & Express API',
+    image: mymovieapi,
+    github: 'https://github.com/JarJarDinks/myFlix-API',
+    live: 'https://mymovieapidb.herokuapp.com/',
   },
   {
     id: 5,
-    name: 'React JS Application',
-    image: PokemonIndex,
-    github: '',
-    live: '',
+    name: 'React Movie App',
+    image: reactmovieapp,
+    github: 'https://github.com/JarJarDinks/myFlix-client',
+    live: 'https://themovieflicks.netlify.app/',
   },
   {
     id: 6,
-    name: 'React JS Application',
-    image: PokemonIndex,
-    github: '',
-    live: '',
+    name: 'React Meet App',
+    image: meetapp,
+    github: 'https://github.com/JarJarDinks/meet-app',
+    live: 'https://jarjardinks.github.io/meet-app/',
   },
 ];
