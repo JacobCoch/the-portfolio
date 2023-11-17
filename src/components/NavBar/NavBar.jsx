@@ -12,7 +12,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
-import letterJ from '../../assets/letter-j.png';
+import letterJ from '../../assets/letterJ.png';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -105,6 +105,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/jacob-cochrane-534a8122a/"
               target="_blank"
+              rel="noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -114,6 +115,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/JarJarDinks"
               target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -123,6 +125,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full text-gray-500"
               href="https://twitter.com/JarJarDiinkss"
               target="_blank"
+              rel="noreferrer"
             >
               Twitter <FaTwitter size={30} />
             </a>
@@ -133,6 +136,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full text-gray-500"
               href="https://medium.com/@cochranejacob22"
               target="_blank"
+              rel="noreferrer"
             >
               Medium <FaMedium size={30} />
             </a>
@@ -142,6 +146,7 @@ const NavBar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:cochranejacob22@gmail.com"
               target="_blank"
+              rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>

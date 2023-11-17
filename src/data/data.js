@@ -4,6 +4,7 @@ import chatschatapp from '../assets/projects/chatschatapp.png';
 import mymovieapi from '../assets/projects/mymovieapi.png';
 import reactmovieapp from '../assets/projects/reactmovieapp.png';
 import meetapp from '../assets/projects/meetapp.png';
+import tastebuds from '../assets/projects/tastebuds.jpg';
 
 export const data = [
   {
@@ -15,31 +16,31 @@ export const data = [
   },
   {
     id: 2,
+    name: 'Django Recipe App',
+    image: tastebuds,
+    github: 'https://github.com/JarJarDinks/recipe-app',
+    live: 'https://shrouded-forest-61463-f52cd1412c70.herokuapp.com/',
+  },
+  {
+    id: 3,
     name: 'Vanilla JS Pokemon Index',
     image: PokemonIndex,
     github: 'https://github.com/JarJarDinks/pokemon-index',
     live: 'https://jarjardinks.github.io/pokemon-index/',
   },
   {
-    id: 3,
+    id: 4,
     name: 'React Native Chat App',
     image: chatschatapp,
     github: 'https://github.com/JarJarDinks/ChatApp',
     live: '',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Node & Express API',
     image: mymovieapi,
     github: 'https://github.com/JarJarDinks/myFlix-API',
     live: 'https://mymovieapidb.herokuapp.com/',
-  },
-  {
-    id: 5,
-    name: 'React Movie App',
-    image: reactmovieapp,
-    github: 'https://github.com/JarJarDinks/myFlix-client',
-    live: 'https://themovieflicks.netlify.app/',
   },
   {
     id: 6,
