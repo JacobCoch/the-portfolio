@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/the-portfolio/static/css/main.78f488ec.css",
-    "main.js": "/the-portfolio/static/js/main.e08f73cf.js",
+    "main.js": "/the-portfolio/static/js/main.0f4f3505.js",
     "static/js/787.8daa9609.chunk.js": "/the-portfolio/static/js/787.8daa9609.chunk.js",
     "static/media/angularmovieapp.png": "/the-portfolio/static/media/angularmovieapp.a85e406208aef14a9a4e.png",
     "static/media/meetapp.png": "/the-portfolio/static/media/meetapp.b9e934bd36aabc35fc54.png",
-    "static/media/reactmovieapp.png": "/the-portfolio/static/media/reactmovieapp.61d1604a14f522bc8a5d.png",
     "static/media/pokemonindex.png": "/the-portfolio/static/media/pokemonindex.3d5960f84bf508819880.png",
     "static/media/chatschatapp.png": "/the-portfolio/static/media/chatschatapp.25ec9161a91e311b5a2c.png",
     "static/media/tastebuds.jpg": "/the-portfolio/static/media/tastebuds.a0ba3a416dcbebe71cc6.jpg",
+    "static/media/devmeetups.jpg": "/the-portfolio/static/media/devmeetups.b53714dd60473a63e55c.jpg",
     "static/media/mymovieapi.png": "/the-portfolio/static/media/mymovieapi.7ed30e35083861cb7969.png",
     "static/media/letterJ.png": "/the-portfolio/static/media/letterJ.7bf4bd6f2a35c2e4a083.png",
     "static/media/react.png": "/the-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -28,11 +28,11 @@
     "static/media/python.png": "/the-portfolio/static/media/python.f5d238d129f0f9fd6bae.png",
     "index.html": "/the-portfolio/index.html",
     "main.78f488ec.css.map": "/the-portfolio/static/css/main.78f488ec.css.map",
-    "main.e08f73cf.js.map": "/the-portfolio/static/js/main.e08f73cf.js.map",
+    "main.0f4f3505.js.map": "/the-portfolio/static/js/main.0f4f3505.js.map",
     "787.8daa9609.chunk.js.map": "/the-portfolio/static/js/787.8daa9609.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78f488ec.css",
-    "static/js/main.e08f73cf.js"
+    "static/js/main.0f4f3505.js"
   ]
 }
