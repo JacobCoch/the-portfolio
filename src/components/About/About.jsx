@@ -25,7 +25,7 @@ const About = () => {
               apps that are both vissually stunning and user-friendly. I'm
               committed to delivering high-quality solutions that exceed
               expectations, with a focus on innovation and problem solving. I'm
-              dedicated to helping businesses and indibiduals achieve their
+              dedicated to helping businesses and individuals achieve their
               digital goals.
             </p>
           </div>
