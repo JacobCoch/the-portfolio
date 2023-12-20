@@ -1,9 +1,9 @@
-import AngularMovieApp from "../assets/projects/angularmovieapp.png";
 import chatschatapp from "../assets/projects/chatschatapp.png";
 import devmeetups from "../assets/projects/devmeetups.jpg";
 import eventBack from "../assets/projects/modals/eventbackModal.jpg";
 import eventFront from "../assets/projects/modals/eventfrontModal.jpg";
 import mobileExample from "../assets/projects/modals/iphoneimg.jpg";
+import myfliix from "../assets/projects/myflix.jpg";
 import mymovieapi from "../assets/projects/mymovieapi.png";
 import PokemonIndex from "../assets/projects/pokemonindex.png";
 import tastebuds from "../assets/projects/tastebuds.jpg";
@@ -11,7 +11,14 @@ import tastebuds from "../assets/projects/tastebuds.jpg";
 const data = [
     {
         id: 1,
-        name: "React Dev Meetup App",
+        name: "React Movie App",
+        image: myfliix,
+        github: "https://github.com/JarJarDinks/myFLix-client",
+        live: "https://themovieflicks.netlify.app/",
+    },
+    {
+        id: 2,
+        name: "Dev Meetup App",
         image: devmeetups,
         github: "https://github.com/JarJarDinks/Dev-Meetups/",
         live: "https://jarjardinks.github.io/Dev-Meetups/",
@@ -19,13 +26,7 @@ const data = [
         eventBack,
         eventFront,
     },
-    {
-        id: 2,
-        name: "Angular Movie App",
-        image: AngularMovieApp,
-        github: "https://github.com/JarJarDinks/myFLix-Angular-client",
-        live: "https://jarjardinks.github.io/myFLix-Angular-client/welcome",
-    },
+
     {
         id: 3,
         name: "Django Recipe App",

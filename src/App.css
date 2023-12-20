@@ -64,15 +64,36 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.start-section__left {
+.overview-section {
     display: flex;
     flex-direction: column;
 }
 
-.start-section__left__image img {
+.overview-section img {
     max-width: 200px;
     background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.server-side-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.client-side-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }

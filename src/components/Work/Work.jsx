@@ -54,8 +54,7 @@ function Work() {
                                     >
                                         <button
                                             type='button'
-                                            className='text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg'
+                                            className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'
                                         >
                                             Code
                                         </button>
@@ -68,8 +67,7 @@ function Work() {
                                     >
                                         <button
                                             type='button'
-                                            className='text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg'
+                                            className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'
                                         >
                                             Live
                                         </button>
@@ -102,30 +100,228 @@ function Work() {
                         </span>
                         <h1>Case Study</h1>
                         <div className='start-section'>
-                            <div className='start-section__left'>
+                            <div className='overview-section'>
                                 <h2>Overview</h2>
                                 <p>
-                                    This project was initiated to develop a
-                                    responsive movie application, leveraging
-                                    Angular for the client-side and an existing
-                                    REST API for the server-side. The objective
-                                    was to offer movie enthusiasts an immersive
-                                    platform to explore details about movies,
-                                    directores, actors, genres, and more.
+                                    Crafted within the MERN stack, this project
+                                    introduces a responsive movie application,
+                                    providing movie enthusiasts with an
+                                    immersive platform to explore details about
+                                    movies, directores, actors, genres, and
+                                    more.
                                 </p>
                             </div>
-                            <div className='start-section__right'>
+                            <div className='purpose-section'>
                                 <h2>Purpose</h2>
                                 <p>
-                                    I was the sole developer on this project. I
-                                    was responsible for the design, development,
-                                    and deployment of the application.
+                                    This project, part of my web development
+                                    studies, is to showcase my skills in
+                                    full-stack JavaScript development, covering
+                                    both front-end and back-end aspects.
                                 </p>
                             </div>
-                            <div className='start-section__left'>
-                                <div className='start-section__left__image'>
-                                    <img src={selectedProject.mobile} alt='' />
+                            <div className='objective-section'>
+                                <h2>Objective</h2>
+                                <p>
+                                    The project&apos;s goal was to develop a
+                                    comprhensive server-side and client-side web
+                                    application from the ground up, with the
+                                    intention of presenting the finished product
+                                    in a professional portfolio.
+                                </p>
+                            </div>
+                            <div className='credits-section'>
+                                <div className='credits'>
+                                    <h3>Credits</h3>
+                                    <ul>
+                                        <li>Developer: Jacob Cochrane</li>
+                                        <li>Mentors: Elliot Himmelfarb</li>
+                                        <li>
+                                            Tutors: Aram Hammoudeh, Chance
+                                            Cochrane
+                                        </li>
+                                    </ul>
                                 </div>
+                                <div className='tools'>
+                                    <h3>Tools</h3>
+
+                                    <li>MERN Stack</li>
+                                    <li>React Bootstrap</li>
+                                    <li>Postman</li>
+                                    <li>Axios</li>
+                                    <li>Heroku</li>
+                                    <li>Netlify</li>
+                                    <li>Redux</li>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='server-side-section'>
+                            <div className='server-side-left'>
+                                <h2>Server-side</h2>
+                                <a
+                                    href='https://github.com/JarJarDinks/myFlix-API'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <button
+                                        type='button'
+                                        className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
+                                    >
+                                        Github
+                                    </button>
+                                </a>
+                                <p>
+                                    Using Node.js and Express, I created a
+                                    RESTful API interfacing with a
+                                    non-relational MongoDB database. This API,
+                                    accessible through widely adopted HTTP
+                                    methods such as GET or POST, employs CRUD
+                                    operations for seamless data retrieval and
+                                    storage. The outcome is a JSON-formatted
+                                    presentation of movie details.
+                                </p>
+                            </div>
+                            <div className='server-side-right'>
+                                <div className='basics'>
+                                    <h2>Basics</h2>
+                                    <p>
+                                        To kick off the server-side development,
+                                        I covered the basics, established
+                                        business logic for consistent data
+                                        formatting, and chose Heroku for
+                                        deployment. Security measures, uncluding
+                                        CORS, password hashing, and JWT
+                                        authentication, further enhanced the
+                                        API&apos;s functionality.
+                                    </p>
+                                </div>
+                                <div className='database-schema'>
+                                    <h2>Database</h2>
+                                    <p>
+                                        Choosing between relational and
+                                        non-relational databases, I tested
+                                        PostGreSQL and MongoDB. Opting for
+                                        mongoDB due to its flexibility, I then
+                                        used Mongoose to create structured
+                                        models for seamless interaction.
+                                    </p>
+                                </div>
+                                <div className='authentication'>
+                                    <h2>Authentication</h2>
+                                    <p>
+                                        Ensuring site security involved a basic
+                                        HTTP login paired with JWT token-based
+                                        authorization. This approach enhanced
+                                        overall protection, addressing potential
+                                        vulnerabilities.
+                                    </p>
+                                </div>
+                                <div className='deployment'>
+                                    <h2>Deployment</h2>
+                                    <p>
+                                        After testing with Postman, the app was
+                                        deployed on Heroku, with MongoDB Atlas
+                                        hosting the database. This process
+                                        ensures a secure, reliable, and scalable
+                                        application.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='client-side-section'>
+                            <div className='client-side-left'>
+                                <div className='code-quality'>
+                                    <h2>Code Quality</h2>
+                                    <p>
+                                        During client-side development, I
+                                        prioritized code quality by integrating
+                                        ESLint. This robust tool detected errors
+                                        early, ensuring a standardized and
+                                        consistent codebase, and significantly
+                                        contributed to maintaining high-quality
+                                        code and best practices in the React
+                                        ecosystem.
+                                    </p>
+                                </div>
+                                <div className='architecture'>
+                                    <h2>Architecture</h2>
+                                    <p>
+                                        The project aimed to implement MVC
+                                        architecture, choosing React for its
+                                        speed and maintainability. This decision
+                                        structured the application, enhancing
+                                        scalability and simplifying maintenance.
+                                    </p>
+                                </div>
+                                <div className='final-product'>
+                                    <h2>Final Product</h2>
+                                    <p>
+                                        With Parcel for efficiency, React
+                                        Bootstrap for a sleek UI, and ESLint for
+                                        clean code,the project ensured smooth
+                                        processes, an attractive design, and a
+                                        uniform codebase.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='client-side-right'>
+                                <h2>Client-side</h2>
+                                <a
+                                    href='https://github.com/JarJarDinks/myFlix-client'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <button
+                                        type='button'
+                                        className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
+                                    >
+                                        Github
+                                    </button>
+                                </a>
+                                <p>
+                                    Utilizing React and Redux, I developed a
+                                    responsive front-end application that
+                                    interacts with the server-side REST API.
+                                    This client-side application, built with a
+                                    single-page architecture, offers users a
+                                    user-friendly interface for effortless
+                                    browsing and exploration of movie details.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='retrospective'>
+                            <h2>Retrospective</h2>
+                            <div>
+                                <h3>What went well?</h3>
+                                <p>
+                                    I found myself very intrigued with the
+                                    back-end process of creating the API.
+                                    Especially with the database, I enjoyed
+                                    working with MongoDB and Mongoose to
+                                    structure the data for the API.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>What didn&apos;t go well?</h3>
+                                <p>
+                                    Implementing ESlint later into the project
+                                    posed a challenge during development,
+                                    actually leading to a complete restart of
+                                    the client-side application. However, this
+                                    process was a valuable learning experience,
+                                    and the final product was significantly
+                                    improved because of it.
+                                </p>
+                            </div>
+                            <div>
+                                <h3>Final Thoughts</h3>
+                                <p>
+                                    Overall, I am very pleased with the final
+                                    product. I believe the application is
+                                    intuitive and user-friendly, and I am
+                                    excited to continue to improve it in the
+                                    future.
+                                </p>
                             </div>
                         </div>
                     </div>
