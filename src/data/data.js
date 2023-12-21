@@ -1,8 +1,5 @@
 import chatschatapp from "../assets/projects/chatschatapp.png";
 import devmeetups from "../assets/projects/devmeetups.jpg";
-import eventBack from "../assets/projects/modals/eventbackModal.jpg";
-import eventFront from "../assets/projects/modals/eventfrontModal.jpg";
-import mobileExample from "../assets/projects/modals/iphoneimg.jpg";
 import myfliix from "../assets/projects/myflix.jpg";
 import mymovieapi from "../assets/projects/mymovieapi.png";
 import PokemonIndex from "../assets/projects/pokemonindex.png";
@@ -22,9 +19,6 @@ const data = [
         image: devmeetups,
         github: "https://github.com/JarJarDinks/Dev-Meetups/",
         live: "https://jarjardinks.github.io/Dev-Meetups/",
-        mobile: mobileExample,
-        eventBack,
-        eventFront,
     },
 
     {

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import eslintImage from "../../assets/projects/modals/eslint-modal.png";
+import homeView from "../../assets/projects/modals/homeview-modal.png";
 import data from "../../data/data";
 import "../../App.css";
 
@@ -98,7 +100,7 @@ function Work() {
                         <span className='close' onClick={closeModal}>
                             &times;
                         </span>
-                        <h1>Case Study</h1>
+                        <h1>myFlix Case Study</h1>
                         <div className='start-section'>
                             <div className='overview-section'>
                                 <h2>Overview</h2>
@@ -110,7 +112,11 @@ function Work() {
                                     movies, directores, actors, genres, and
                                     more.
                                 </p>
+                                <div className='overview-image'>
+                                    <img src={homeView} alt='home view' />
+                                </div>
                             </div>
+
                             <div className='purpose-section'>
                                 <h2>Purpose</h2>
                                 <p>
@@ -130,9 +136,11 @@ function Work() {
                                     in a professional portfolio.
                                 </p>
                             </div>
-                            <div className='credits-section'>
-                                <div className='credits'>
-                                    <h3>Credits</h3>
+                        </div>
+                        <div className='credits-section'>
+                            <div className='credits'>
+                                <h3>Credits</h3>
+                                <div className='credits-left'>
                                     <ul>
                                         <li>Developer: Jacob Cochrane</li>
                                         <li>Mentors: Elliot Himmelfarb</li>
@@ -142,22 +150,26 @@ function Work() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className='tools'>
-                                    <h3>Tools</h3>
-
-                                    <li>MERN Stack</li>
-                                    <li>React Bootstrap</li>
-                                    <li>Postman</li>
-                                    <li>Axios</li>
-                                    <li>Heroku</li>
-                                    <li>Netlify</li>
-                                    <li>Redux</li>
+                            </div>
+                            <div className='tools'>
+                                <h3>Tools</h3>
+                                <div className='tools-right'>
+                                    <div>
+                                        <li>MERN Stack</li>
+                                        <li>React Bootstrap</li>
+                                        <li>Postman</li>
+                                    </div>
+                                    <div>
+                                        <li>Axios</li>
+                                        <li>Heroku</li>
+                                        <li>Redux</li>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <hr />
                         <div className='server-side-section'>
-                            <div className='server-side-left'>
-                                <h2>Server-side</h2>
+                            <div className='server-side-top'>
                                 <a
                                     href='https://github.com/JarJarDinks/myFlix-API'
                                     target='_blank'
@@ -165,11 +177,13 @@ function Work() {
                                 >
                                     <button
                                         type='button'
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
+                                        className='api-button text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
                                     >
                                         Github
                                     </button>
                                 </a>
+                                <h2>Server-side</h2>
+
                                 <p>
                                     Using Node.js and Express, I created a
                                     RESTful API interfacing with a
@@ -181,7 +195,7 @@ function Work() {
                                     presentation of movie details.
                                 </p>
                             </div>
-                            <div className='server-side-right'>
+                            <div className='server-side-bottom'>
                                 <div className='basics'>
                                     <h2>Basics</h2>
                                     <p>
@@ -228,6 +242,7 @@ function Work() {
                                 </div>
                             </div>
                         </div>
+                        <hr />
                         <div className='client-side-section'>
                             <div className='client-side-left'>
                                 <div className='code-quality'>
@@ -242,6 +257,9 @@ function Work() {
                                         code and best practices in the React
                                         ecosystem.
                                     </p>
+                                </div>
+                                <div className='eslint-image'>
+                                    <img src={eslintImage} alt='eslint' />
                                 </div>
                                 <div className='architecture'>
                                     <h2>Architecture</h2>
@@ -265,7 +283,6 @@ function Work() {
                                 </div>
                             </div>
                             <div className='client-side-right'>
-                                <h2>Client-side</h2>
                                 <a
                                     href='https://github.com/JarJarDinks/myFlix-client'
                                     target='_blank'
@@ -273,11 +290,13 @@ function Work() {
                                 >
                                     <button
                                         type='button'
-                                        className='text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
+                                        className='client-button text-center rounded-lg px-4 py-3 m-2 bg-black text-gray-700 font-bold text-lg'
                                     >
                                         Github
                                     </button>
                                 </a>
+                                <h2>Client-side</h2>
+
                                 <p>
                                     Utilizing React and Redux, I developed a
                                     responsive front-end application that
@@ -289,6 +308,7 @@ function Work() {
                                 </p>
                             </div>
                         </div>
+                        <hr />
                         <div className='retrospective'>
                             <h2>Retrospective</h2>
                             <div>
