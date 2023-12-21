@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 import eslintImage from "../../assets/projects/modals/eslint-modal.png";
 import homeView from "../../assets/projects/modals/homeview-modal.png";
+import loginView from "../../assets/projects/modals/login-modal.png";
+import moviesView from "../../assets/projects/modals/movieview-modal.png";
+import similarMovies from "../../assets/projects/modals/similarmovies-modal.png";
 import data from "../../data/data";
 import "../../App.css";
 
@@ -45,9 +48,12 @@ function Work() {
                         >
                             {/* Hover effect for images */}
                             <div className='opacity-0 group-hover:opacity-100 '>
-                                <span className='text-2xl font bold text-white tracking-wider '>
+                                <h2 className='text-2xl font-bold text-white mb-2'>
                                     {item.name}
-                                </span>
+                                </h2>
+                                <p className='text-sm text-gray-300 pr-1 pl-1'>
+                                    {item.details}
+                                </p>
                                 <div className='pt-8 text-center '>
                                     <a
                                         href={item.github}
@@ -100,7 +106,10 @@ function Work() {
                         <span className='close' onClick={closeModal}>
                             &times;
                         </span>
-                        <h1>myFlix Case Study</h1>
+                        <h1 className='border-b-2 border-pink-600 '>
+                            myFlix Case Study
+                        </h1>
+                        <span className='three-min'>3 min read</span>
                         <div className='start-section'>
                             <div className='overview-section'>
                                 <h2>Overview</h2>
@@ -112,9 +121,6 @@ function Work() {
                                     movies, directores, actors, genres, and
                                     more.
                                 </p>
-                                <div className='overview-image'>
-                                    <img src={homeView} alt='home view' />
-                                </div>
                             </div>
 
                             <div className='purpose-section'>
@@ -182,6 +188,7 @@ function Work() {
                                         Github
                                     </button>
                                 </a>
+                                <img src={similarMovies} alt='similar movies' />
                                 <h2>Server-side</h2>
 
                                 <p>
@@ -196,93 +203,77 @@ function Work() {
                                 </p>
                             </div>
                             <div className='server-side-bottom'>
-                                <div className='basics'>
-                                    <h2>Basics</h2>
-                                    <p>
-                                        To kick off the server-side development,
-                                        I covered the basics, established
-                                        business logic for consistent data
-                                        formatting, and chose Heroku for
-                                        deployment. Security measures, uncluding
-                                        CORS, password hashing, and JWT
-                                        authentication, further enhanced the
-                                        API&apos;s functionality.
-                                    </p>
+                                <div className='card'>
+                                    <div className='basics'>
+                                        <h2>Basics</h2>
+                                        <p>
+                                            To kick off the server-side
+                                            development, I covered the basics,
+                                            established business logic for
+                                            consistent data formatting, and
+                                            chose Heroku for deployment.
+                                            Security measures, uncluding CORS,
+                                            password hashing, and JWT
+                                            authentication, further enhanced the
+                                            API&apos;s functionality.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className='database-schema'>
-                                    <h2>Database</h2>
-                                    <p>
-                                        Choosing between relational and
-                                        non-relational databases, I tested
-                                        PostGreSQL and MongoDB. Opting for
-                                        mongoDB due to its flexibility, I then
-                                        used Mongoose to create structured
-                                        models for seamless interaction.
-                                    </p>
+                                <div className='card'>
+                                    <div className='database-schema'>
+                                        <h2>Database</h2>
+                                        <p>
+                                            Choosing between relational and
+                                            non-relational databases, I tested
+                                            PostGreSQL and MongoDB. Opting for
+                                            mongoDB due to its flexibility, I
+                                            then used Mongoose to create
+                                            structured models for seamless
+                                            interaction.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className='authentication'>
-                                    <h2>Authentication</h2>
-                                    <p>
-                                        Ensuring site security involved a basic
-                                        HTTP login paired with JWT token-based
-                                        authorization. This approach enhanced
-                                        overall protection, addressing potential
-                                        vulnerabilities.
-                                    </p>
+                                <div className='card'>
+                                    <div className='authentication'>
+                                        <h2>Authentication</h2>
+                                        <p>
+                                            Ensuring site security involved a
+                                            basic HTTP login paired with JWT
+                                            token-based authorization. This
+                                            approach enhanced overall
+                                            protection, addressing potential
+                                            vulnerabilities.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className='deployment'>
-                                    <h2>Deployment</h2>
-                                    <p>
-                                        After testing with Postman, the app was
-                                        deployed on Heroku, with MongoDB Atlas
-                                        hosting the database. This process
-                                        ensures a secure, reliable, and scalable
-                                        application.
-                                    </p>
+                                <div className='card'>
+                                    <div className='deployment'>
+                                        <h2>Deployment</h2>
+                                        <p>
+                                            After testing with Postman, the app
+                                            was deployed on Heroku, with MongoDB
+                                            Atlas hosting the database. This
+                                            process ensures a secure, reliable,
+                                            and scalable application.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <hr />
                         <div className='client-side-section'>
-                            <div className='client-side-left'>
-                                <div className='code-quality'>
-                                    <h2>Code Quality</h2>
-                                    <p>
-                                        During client-side development, I
-                                        prioritized code quality by integrating
-                                        ESLint. This robust tool detected errors
-                                        early, ensuring a standardized and
-                                        consistent codebase, and significantly
-                                        contributed to maintaining high-quality
-                                        code and best practices in the React
-                                        ecosystem.
-                                    </p>
-                                </div>
-                                <div className='eslint-image'>
-                                    <img src={eslintImage} alt='eslint' />
-                                </div>
-                                <div className='architecture'>
-                                    <h2>Architecture</h2>
-                                    <p>
-                                        The project aimed to implement MVC
-                                        architecture, choosing React for its
-                                        speed and maintainability. This decision
-                                        structured the application, enhancing
-                                        scalability and simplifying maintenance.
-                                    </p>
-                                </div>
-                                <div className='final-product'>
-                                    <h2>Final Product</h2>
-                                    <p>
-                                        With Parcel for efficiency, React
-                                        Bootstrap for a sleek UI, and ESLint for
-                                        clean code,the project ensured smooth
-                                        processes, an attractive design, and a
-                                        uniform codebase.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className='client-side-right'>
+                            <div className='client-side-top'>
+                                <h2>Client-side</h2>
+
+                                <p>
+                                    Utilizing React and Redux, I developed a
+                                    responsive front-end application that
+                                    interacts with the server-side REST API.
+                                    This client-side application, built with a
+                                    single-page architecture, offers users a
+                                    user-friendly interface for effortless
+                                    browsing and exploration of movie details.
+                                </p>
                                 <a
                                     href='https://github.com/JarJarDinks/myFlix-client'
                                     target='_blank'
@@ -295,17 +286,68 @@ function Work() {
                                         Github
                                     </button>
                                 </a>
-                                <h2>Client-side</h2>
+                            </div>
+                            <div className='client-side-left'>
+                                <div className='architecture-component'>
+                                    <div className='architecture'>
+                                        <h2>Architecture</h2>
+                                        <p>
+                                            The project aimed to implement MVC
+                                            architecture, choosing React for its
+                                            speed and maintainability. This
+                                            decision structured the application,
+                                            enhancing scalability and
+                                            simplifying maintenance.
+                                        </p>
+                                    </div>
+                                    <div className='loginview-image'>
+                                        <img src={loginView} alt='' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='client-side-right'>
+                                <div className='code-quality-component'>
+                                    <div className='code-quality'>
+                                        <h2>Code Quality</h2>
+                                        <p>
+                                            During client-side development, I
+                                            prioritized code quality by
+                                            integrating ESLint. This robust tool
+                                            detected errors early, ensuring a
+                                            standardized and consistent
+                                            codebase, and significantly
+                                            contributed to maintaining
+                                            high-quality code and best practices
+                                            in the React ecosystem.
+                                        </p>
+                                    </div>
+                                    <div className='eslint-image'>
+                                        <img src={eslintImage} alt='eslint' />
+                                    </div>
+                                </div>
+                                <div className='final-product-component'>
+                                    <div className='final-product'>
+                                        <h2>Final Product</h2>
+                                        <p>
+                                            With Parcel for efficiency, React
+                                            Bootstrap for a sleek UI, and ESLint
+                                            for clean code,the project ensured
+                                            smooth processes, an attractive
+                                            design, and a uniform codebase.
+                                        </p>
+                                        <div className='final-product-images'>
+                                            <img
+                                                src={homeView}
+                                                alt='home view'
+                                            />
 
-                                <p>
-                                    Utilizing React and Redux, I developed a
-                                    responsive front-end application that
-                                    interacts with the server-side REST API.
-                                    This client-side application, built with a
-                                    single-page architecture, offers users a
-                                    user-friendly interface for effortless
-                                    browsing and exploration of movie details.
-                                </p>
+                                            <img
+                                                src={moviesView}
+                                                alt='movies view'
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <hr />

@@ -1,5 +1,7 @@
 import React from "react";
 
+import character from "../../assets/selfCharacter.jpg";
+
 function About() {
     return (
         <div
@@ -13,26 +15,28 @@ function About() {
                             About
                         </p>
                     </div>
-                    <div />
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>
-                            Hi. I&apos;m Jacob Cochrane, nice to meet you.
-                            Please take a look around.
-                        </p>
+                        <p>Hi. I&apos;m Jacob Cochrane, nice to meet you.</p>
+                        <div>
+                            <p className='about-passage font-normal leading-normal pt-6'>
+                                I&apos;m a passionate software developer based
+                                in Arizona. I build web apps that are both
+                                visually stunning and user-friendly. I&apos;m
+                                committed to delivering high-quality solutions
+                                that exceed expectations, with a focus on
+                                innovation and problem solving. I&apos;m
+                                dedicated to helping businesses and individuals
+                                achieve their digital goals.
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <p>
-                            I&apos;m a passionate software developer based in
-                            Arizona. I build web apps that are both visually
-                            stunning and user-friendly. I&apos;m committed to
-                            delivering high-quality solutions that exceed
-                            expectations, with a focus on innovation and problem
-                            solving. I&apos;m dedicated to helping businesses
-                            and individuals achieve their digital goals.
-                        </p>
-                    </div>
+                    <img
+                        src={character}
+                        className='character'
+                        alt='character'
+                    />
                 </div>
             </div>
         </div>
