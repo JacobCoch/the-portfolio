@@ -1,3 +1,17 @@
+.redirect-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.character {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+}
+
 .modal {
     display: block; /* initially set to none and changed to block when modal is open */
     position: fixed;
@@ -29,13 +43,16 @@ h2 {
     background-color: rgba(104, 46, 192, 0.99);
     padding: 20px;
     border-radius: 8px;
-    min-width: 80%;
-    min-height: 80%;
-    max-width: 80%;
+    min-width: 1105px;
+
     max-height: 80%;
-    overflow: auto;
+    overflow-y: scroll;
     border: 1px solid;
-    overflow: auto;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 .modal-content h1 {
@@ -182,7 +199,7 @@ h2 {
 .client-button {
     position: absolute;
     color: white;
-    top: 1755px;
+    top: 1790px;
     right: 40px;
 }
 

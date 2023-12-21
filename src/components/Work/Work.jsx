@@ -45,9 +45,12 @@ function Work() {
                         >
                             {/* Hover effect for images */}
                             <div className='opacity-0 group-hover:opacity-100 '>
-                                <span className='text-2xl font bold text-white tracking-wider '>
+                                <h2 className='text-2xl font-bold text-white mb-2'>
                                     {item.name}
-                                </span>
+                                </h2>
+                                <p className='text-sm text-gray-300 pr-1 pl-1'>
+                                    {item.details}
+                                </p>
                                 <div className='pt-8 text-center '>
                                     <a
                                         href={item.github}

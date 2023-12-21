@@ -1,5 +1,7 @@
 import React from "react";
 
+import character from "../../assets/character.png";
+
 function About() {
     return (
         <div
@@ -13,15 +15,17 @@ function About() {
                             About
                         </p>
                     </div>
-                    <div />
+                    <img
+                        src={character}
+                        className='character'
+                        alt='character'
+                    />
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>
-                            Hi. I&apos;m Jacob Cochrane, nice to meet you.
-                            Please take a look around.
-                        </p>
+                        <p>Hi. I&apos;m Jacob Cochrane, nice to meet you.</p>
                     </div>
+
                     <div>
                         <p>
                             I&apos;m a passionate software developer based in

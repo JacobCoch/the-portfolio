@@ -46,11 +46,6 @@ function NavBar() {
                         Work
                     </Link>
                 </li>
-                <li>
-                    <Link to='contact' smooth duration={500}>
-                        Contact
-                    </Link>
-                </li>
             </ul>
 
             {/* Mobile Navigation Menu Icon */}
@@ -105,17 +100,6 @@ function NavBar() {
                         Work
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
-                    {" "}
-                    <Link
-                        onClick={handleClick}
-                        to='contact'
-                        smooth
-                        duration={500}
-                    >
-                        Contact
-                    </Link>
-                </li>
             </ul>
 
             {/* Social Media Links */}
@@ -144,11 +128,11 @@ function NavBar() {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFf]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-500'
-                            href='https://twitter.com/JarJarDiinkss'
+                            href='https://twitter.com/jarjardiinks'
                             target='_blank'
                             rel='noreferrer'
                         >
-                            Twitter <FaTwitter size={30} />
+                            X <FaTwitter size={30} />
                         </a>
                     </li>
 

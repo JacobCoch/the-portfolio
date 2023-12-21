@@ -36,124 +36,214 @@ function Skills() {
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={HTML}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>HTML</p>
+                        <a
+                            href='https://developer.mozilla.org/en-US/docs/Web/HTML'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={HTML}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>HTML</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={CSS}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>CSS</p>
+                        <a
+                            href='https://developer.mozilla.org/en-US/docs/Web/CSS'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={CSS}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>CSS</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={JavaScript}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>JAVASCRIPT</p>
+                        <a
+                            href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={JavaScript}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>JAVASCRIPT</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={ReactLogo}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>REACT</p>
+                        <a
+                            href='https://react.dev/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={ReactLogo}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>REACT</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Git}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>GITHUB</p>
+                        <a
+                            href='https://github.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Git}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>GITHUB</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Node}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>NODE JS</p>
+                        <a
+                            href='https://nodejs.org/en'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Node}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>NODE JS</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Redux}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>REDUX</p>
+                        <a
+                            href='https://redux.js.org/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Redux}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>REDUX</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={MongoDB}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>MONGO DB</p>
+                        <a
+                            href='https://www.mongodb.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={MongoDB}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>MONGO DB</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Tailwind}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>TAILWIND</p>
+                        <a
+                            href='https://tailwindcss.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Tailwind}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>TAILWIND</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={FireBase}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>FIREBASE</p>
+                        <a
+                            href='https://firebase.google.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={FireBase}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>FIREBASE</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Bootstrap}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>BOOTSTRAP</p>
+                        <a
+                            href='https://getbootstrap.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Bootstrap}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>BOOTSTRAP</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Aws}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>AWS</p>
+                        <a
+                            href='https://aws.amazon.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Aws}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>AWS</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Jquery}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>JQUERY</p>
+                        <a
+                            href='https://jquery.com/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Jquery}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>JQUERY</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Angular}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>ANGULAR</p>
+                        <a
+                            href='https://angular.io/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Angular}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>ANGULAR</p>
+                        </a>
                     </div>
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img
-                            className='w-20 mx-auto'
-                            src={Python}
-                            alt='HTML icon'
-                        />
-                        <p className='my-4'>PYTHON</p>
+                        <a
+                            href='https://www.python.org/'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <img
+                                className='w-20 mx-auto'
+                                src={Python}
+                                alt='HTML icon'
+                            />
+                            <p className='my-4'>PYTHON</p>
+                        </a>
                     </div>
                 </div>
             </div>
