@@ -1,5 +1,5 @@
 import chatschatapp from "../assets/projects/chatschatapp.png";
-import devmeetups from "../assets/projects/devmeetups.jpg";
+import devmeetups from "../assets/projects/devmeetup.jpg";
 import myfliix from "../assets/projects/myflix.jpg";
 import mymovieapi from "../assets/projects/mymovieapi.png";
 import PokemonIndex from "../assets/projects/pokemonindex.png";
