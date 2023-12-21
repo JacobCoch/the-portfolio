@@ -111,6 +111,14 @@ function Work() {
                         </h1>
                         <span className='three-min'>3 min read</span>
                         <div className='start-section'>
+                            <a
+                                href='https://themovieflicks.netlify.app/'
+                                target='_blank'
+                                rel='noreferrer'
+                                className='live-link'
+                            >
+                                Live Site
+                            </a>
                             <div className='overview-section'>
                                 <h2>Overview</h2>
                                 <p>

@@ -18,6 +18,11 @@ function NavBar() {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
 
+    const handleResumeClick = () => {
+        const imageElement = document.getElementById("resumeImage");
+        imageElement.classList.toggle("visible");
+    };
+
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
@@ -107,7 +112,7 @@ function NavBar() {
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300'
+                            className='flex justify-between items-center w-full text-gray-300 pl-3'
                             href='https://www.linkedin.com/in/jacob-cochrane-534a8122a/'
                             target='_blank'
                             rel='noreferrer'
@@ -117,7 +122,7 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300'
+                            className='flex justify-between items-center w-full text-gray-300 pl-3'
                             href='https://github.com/JarJarDinks'
                             target='_blank'
                             rel='noreferrer'
@@ -127,7 +132,7 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFf]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-500'
+                            className='flex justify-between items-center w-full text-gray-950 pl-3'
                             href='https://twitter.com/jarjardiinks'
                             target='_blank'
                             rel='noreferrer'
@@ -138,7 +143,7 @@ function NavBar() {
 
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FFC017]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-500'
+                            className='flex justify-between items-center w-full text-gray-950 pl-3'
                             href='https://medium.com/@cochranejacob22'
                             target='_blank'
                             rel='noreferrer'
@@ -146,9 +151,9 @@ function NavBar() {
                             Medium <FaMedium size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0047AB]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300'
+                            className='flex justify-between items-center w-full text-gray-950 pl-3'
                             href='mailto:cochranejacob22@gmail.com'
                             target='_blank'
                             rel='noreferrer'
@@ -158,8 +163,10 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300'
-                            href='/'
+                            className='flex justify-between items-center w-full text-gray-300 pl-3'
+                            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                            target='_blank'
+                            rel='noreferrer'
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
