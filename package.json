@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jarjardinks.github.io/the-portfolio",
+  "homepage": "https://jacobcoch.github.io/the-portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
