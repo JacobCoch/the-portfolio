@@ -11,7 +11,7 @@ const data = [
         name: "myFlix",
         details: "A movie app built with React, Redux, and React-Bootstrap.",
         image: myfliix,
-        github: "https://github.com/JarJarDinks/myFLix-client",
+        github: "https://github.com/JacobCoch/myFLix-client",
         live: "https://themovieflicks.netlify.app/",
     },
     {
@@ -19,8 +19,8 @@ const data = [
         name: "Dev-Meetups",
         details: "A meetup app for developers.",
         image: devmeetups,
-        github: "https://github.com/JarJarDinks/Dev-Meetups/",
-        live: "https://jarjardinks.github.io/Dev-Meetups/",
+        github: "https://github.com/JacobCoch/Dev-Meetups/",
+        live: "https://jacobcoch.github.io/Dev-Meetups/",
     },
 
     {
@@ -28,7 +28,7 @@ const data = [
         name: "TasteBuds",
         details: "A recipe management app built with Python and Django.",
         image: tastebuds,
-        github: "https://github.com/JarJarDinks/recipe-app",
+        github: "https://github.com/JacobCoch/recipe-app",
         live: "https://shrouded-forest-61463-f52cd1412c70.herokuapp.com/",
     },
     {
@@ -36,23 +36,23 @@ const data = [
         name: "Pokedex",
         details: "A vanilla JavaScript app that uses the Pokemon API.",
         image: PokemonIndex,
-        github: "https://github.com/JarJarDinks/pokemon-index",
-        live: "https://jarjardinks.github.io/pokemon-index/",
+        github: "https://github.com/JacobCoch/pokemon-index",
+        live: "https://jacobcoch.github.io/pokemon-index/",
     },
     {
         id: 5,
         name: "Chat App",
         details: "A React Native chat app built with Expo and Firebase.",
         image: chatschatapp,
-        github: "https://github.com/JarJarDinks/ChatApp",
-        live: "https://github.com/JarJarDinks/ChatApp#installation-and-usage",
+        github: "https://github.com/JacobCoch/ChatApp",
+        live: "https://github.com/JacobCoch/ChatApp#installation-and-usage",
     },
     {
         id: 6,
         name: "API",
         details: "A node.js and express API for myFlix app.",
         image: mymovieapi,
-        github: "https://github.com/JarJarDinks/myFlix-API",
+        github: "https://github.com/JacobCoch/myFlix-API",
         live: "https://mymovieapidb.herokuapp.com/",
     },
 ];
