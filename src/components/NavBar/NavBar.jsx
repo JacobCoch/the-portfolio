@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import {
-    FaBars,
-    FaTimes,
-    FaGithub,
-    FaLinkedin,
-    FaMedium,
-    FaTwitter,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -122,7 +116,7 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300 pl-3'
+                            className='flex justify-between items-center w-full text-white-950 pl-3'
                             href='https://github.com/JacobCoch'
                             target='_blank'
                             rel='noreferrer'
@@ -137,7 +131,7 @@ function NavBar() {
                             target='_blank'
                             rel='noreferrer'
                         >
-                            X <FaTwitter size={30} />
+                            X <FaXTwitter size={30} />
                         </a>
                     </li>
 
@@ -153,7 +147,7 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0047AB]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-950 pl-3'
+                            className='flex justify-between items-center w-full text-white-950 pl-3'
                             href='mailto:cochranejacob22@gmail.com'
                             target='_blank'
                             rel='noreferrer'
@@ -163,7 +157,7 @@ function NavBar() {
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
-                            className='flex justify-between items-center w-full text-gray-300 pl-3'
+                            className='flex justify-between items-center w-full text-white-950 pl-3'
                             href={`${process.env.PUBLIC_URL}/resume.pdf`}
                             target='_blank'
                             rel='noreferrer'

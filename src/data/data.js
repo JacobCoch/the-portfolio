@@ -1,4 +1,6 @@
 import chatschatapp from "../assets/projects/chatschatapp.png";
+import classyClash from "../assets/projects/classy-clash.gif";
+import dapperDash from "../assets/projects/dapper-dash.gif";
 import devmeetups from "../assets/projects/devmeetup.jpg";
 import myfliix from "../assets/projects/myflix.jpg";
 import mymovieapi from "../assets/projects/mymovieapi.png";
@@ -22,9 +24,17 @@ const data = [
         github: "https://github.com/JacobCoch/Dev-Meetups/",
         live: "https://jacobcoch.github.io/Dev-Meetups/",
     },
-
     {
         id: 3,
+        name: "Classy Clash",
+        details: "A C++ game built with raylib.",
+        image: classyClash,
+        github: "https://github.com/JacobCoch/classy-clash",
+        live: "https://github.com/JacobCoch/classy-clash?tab=readme-ov-file#building-and-running-the-game",
+    },
+
+    {
+        id: 4,
         name: "TasteBuds",
         details: "A recipe management app built with Python and Django.",
         image: tastebuds,
@@ -32,7 +42,7 @@ const data = [
         live: "https://shrouded-forest-61463-f52cd1412c70.herokuapp.com/",
     },
     {
-        id: 4,
+        id: 5,
         name: "Pokedex",
         details: "A vanilla JavaScript app that uses the Pokemon API.",
         image: PokemonIndex,
@@ -40,7 +50,15 @@ const data = [
         live: "https://jacobcoch.github.io/pokemon-index/",
     },
     {
-        id: 5,
+        id: 6,
+        name: "Dapper Dash",
+        details: "A C++ game built with raylib.",
+        image: dapperDash,
+        github: "",
+        live: "",
+    },
+    {
+        id: 7,
         name: "Chat App",
         details: "A React Native chat app built with Expo and Firebase.",
         image: chatschatapp,
@@ -48,7 +66,7 @@ const data = [
         live: "https://github.com/JacobCoch/ChatApp#installation-and-usage",
     },
     {
-        id: 6,
+        id: 8,
         name: "API",
         details: "A node.js and express API for myFlix app.",
         image: mymovieapi,
