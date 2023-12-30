@@ -54,6 +54,7 @@ function Work() {
                                 <p className='text-sm text-gray-300 pr-1 pl-1'>
                                     {item.details}
                                 </p>
+
                                 <div className='pt-8 text-center '>
                                     <a
                                         href={item.github}
