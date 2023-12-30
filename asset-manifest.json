@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/the-portfolio/static/css/main.d5874f67.css",
-    "main.js": "/the-portfolio/static/js/main.7a2522d9.js",
+    "main.js": "/the-portfolio/static/js/main.c429094f.js",
     "static/js/787.8b669c24.chunk.js": "/the-portfolio/static/js/787.8b669c24.chunk.js",
+    "static/media/dapper-dash.gif": "/the-portfolio/static/media/dapper-dash.b9df0eb873e3089214c1.gif",
     "static/media/login-modal.png": "/the-portfolio/static/media/login-modal.15dcae1bda6be27d0c78.png",
     "static/media/homeview-modal.png": "/the-portfolio/static/media/homeview-modal.e2c12275f074658c0fee.png",
+    "static/media/classy-clash.gif": "/the-portfolio/static/media/classy-clash.a83b0e0e31bec16f5a36.gif",
     "static/media/movieview-modal.png": "/the-portfolio/static/media/movieview-modal.b4b21a19976ede21b9c5.png",
     "static/media/similarmovies-modal.png": "/the-portfolio/static/media/similarmovies-modal.853adfb87112e287bac2.png",
     "static/media/pokemonindex.png": "/the-portfolio/static/media/pokemonindex.3d5960f84bf508819880.png",
@@ -14,6 +16,7 @@
     "static/media/tastebuds.jpg": "/the-portfolio/static/media/tastebuds.a0ba3a416dcbebe71cc6.jpg",
     "static/media/devmeetup.jpg": "/the-portfolio/static/media/devmeetup.03e5815f6a71cff1247b.jpg",
     "static/media/mymovieapi.png": "/the-portfolio/static/media/mymovieapi.7ed30e35083861cb7969.png",
+    "static/media/Jacob Cochrane's Resume .pdf": "/the-portfolio/static/media/Jacob Cochrane's Resume .d29b24a2db4486f11539.pdf",
     "static/media/letterJ.png": "/the-portfolio/static/media/letterJ.7bf4bd6f2a35c2e4a083.png",
     "static/media/react.png": "/the-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/aws.png": "/the-portfolio/static/media/aws.95bdee6b9922c9b94fd5.png",
@@ -33,11 +36,11 @@
     "static/media/python.png": "/the-portfolio/static/media/python.f5d238d129f0f9fd6bae.png",
     "index.html": "/the-portfolio/index.html",
     "main.d5874f67.css.map": "/the-portfolio/static/css/main.d5874f67.css.map",
-    "main.7a2522d9.js.map": "/the-portfolio/static/js/main.7a2522d9.js.map",
+    "main.c429094f.js.map": "/the-portfolio/static/js/main.c429094f.js.map",
     "787.8b669c24.chunk.js.map": "/the-portfolio/static/js/787.8b669c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5874f67.css",
-    "static/js/main.7a2522d9.js"
+    "static/js/main.c429094f.js"
   ]
 }
