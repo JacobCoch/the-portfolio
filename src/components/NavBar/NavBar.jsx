@@ -6,6 +6,7 @@ import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
+import resume from "../../assets/Jacob Cochrane's Resume .pdf";
 import letterJ from "../../assets/letterJ.png";
 
 function NavBar() {
@@ -224,7 +225,7 @@ function NavBar() {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
                             className='flex justify-between items-center w-full text-white-950 pl-3'
-                            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+                            href={resume}
                             target='_blank'
                             rel='noreferrer'
                         >
