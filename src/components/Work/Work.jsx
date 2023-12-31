@@ -32,7 +32,7 @@ function Work() {
             className='w-full min-h-screen text-gray-300 bg-[#0a192f]'
         >
             <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full'>
-                <div>
+                <div data-aos='fade-down-left' data-aos-duration='3000'>
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>
                         Work
                     </p>
@@ -50,7 +50,7 @@ function Work() {
               flex justify-center text-center items-center mx-auto content-div '
                         >
                             {/* Hover effect for images */}
-                            <div className='opacity-0 group-hover:opacity-100 '>
+                            <div className='opacity-0 group-hover:opacity-100'>
                                 <h2 className='text-2xl font-bold text-white mb-2'>
                                     {item.name}
                                 </h2>
