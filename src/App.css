@@ -1,3 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow: auto;
+}
+
+.navigation-bar {
+    z-index: 1;
+}
+
 .redirect-buttons {
     display: flex;
     flex-direction: row;
@@ -379,4 +394,87 @@ h3 {
 #resumeImage {
     opacity: 0;
     transition: opacity 0.5s ease;
+}
+
+/* snowboarder */
+@keyframes moveSnowboarder {
+    0% {
+        transform: translateX(0px) translateY(-40px);
+    }
+    2.5% {
+        transform: translateX(25px) translateY(-50px);
+    }
+    5% {
+        transform: translateX(50px) translateY(-60px);
+    }
+    10% {
+        transform: translateX(100px) translateY(-50px);
+    }
+    15% {
+        transform: translateX(150px) translateY(-40px);
+    }
+    20% {
+        transform: translateX(200px) translateY(-40px);
+    }
+    25% {
+        transform: translateX(250px) translateY(-40px);
+    }
+    30% {
+        transform: translateX(300px) translateY(-35px);
+    }
+    35% {
+        transform: translateX(350px) translateY(-25px);
+    }
+    40% {
+        transform: translateX(400px) translateY(-20px);
+    }
+    45% {
+        transform: translateX(450px) translateY(-20px);
+    }
+    50% {
+        transform: translateX(500px) translateY(-10px);
+    }
+    55% {
+        transform: translateX(550px) translateY(5px);
+    }
+    60% {
+        transform: translateX(600px) translateY(5px);
+    }
+    65% {
+        transform: translateX(650px) translateY(10px);
+    }
+    70% {
+        transform: translateX(700px) translateY(70px);
+    }
+    75% {
+        transform: translateX(750px) translateY(100px);
+    }
+    80% {
+        transform: translateX(800px) translateY(110px);
+    }
+    85% {
+        transform: translateX(850px) translateY(120px);
+    }
+    90% {
+        transform: translateX(900px) translateY(160px);
+    }
+    95% {
+        transform: translateX(950px) translateY(200px);
+    }
+    100% {
+        transform: translateX(1000px) translateY(260px);
+    }
+}
+
+.snowboarder {
+    position: relative;
+    animation: moveSnowboarder 6s linear;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+}
+
+@media (max-width: 747px) {
+    .snowboarder {
+        animation: none; /* Disable the animation on smaller screens */
+    }
 }
