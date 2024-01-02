@@ -19,15 +19,15 @@ function Home() {
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <div>
                     {Snowboarder}
-                    <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] ml-32 skew-y-6'>
+                    <h1 className='name-slide text-4xl sm:text-7xl font-bold text-[#ccd6f6] mr-20'>
                         Jacob Cochrane
                     </h1>
                 </div>
 
-                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] ml-32 mb-20 skew-y-6'>
+                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]  mb-20 mr-20 '>
                     Software Developer.
                 </h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px] flex justify-center'>
+                <p className='text-[#8892b0] py-4 max-w-[600px] flex justify-center mr-23'>
                     I have expertise in creating outstanding digital
                     experiences. Currently, my primary focus is on developing
                     responsive full-stack web applications.

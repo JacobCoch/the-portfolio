@@ -399,82 +399,96 @@ h3 {
 /* snowboarder */
 @keyframes moveSnowboarder {
     0% {
-        transform: translateX(0px) translateY(-40px);
-    }
-    2.5% {
-        transform: translateX(25px) translateY(-50px);
+        transform: translateX(0px) translateY(-60px);
     }
     5% {
-        transform: translateX(50px) translateY(-60px);
+        transform: translateX(30px) translateY(-70px);
     }
     10% {
-        transform: translateX(100px) translateY(-50px);
+        transform: translateX(60px) translateY(-90px);
     }
     15% {
-        transform: translateX(150px) translateY(-40px);
+        transform: translateX(90px) translateY(-90px);
     }
     20% {
-        transform: translateX(200px) translateY(-40px);
+        transform: translateX(120px) translateY(-10px) rotateY(180deg);
     }
     25% {
-        transform: translateX(250px) translateY(-40px);
+        transform: translateX(180px) translateY(-10px) rotateY(180deg);
     }
     30% {
-        transform: translateX(300px) translateY(-35px);
+        transform: translateX(240px) translateY(-10px) rotateY(180deg);
     }
     35% {
-        transform: translateX(350px) translateY(-25px);
+        transform: translateX(300px) translateY(-10px) rotateY(180deg); /* Increment by 60px */
     }
     40% {
-        transform: translateX(400px) translateY(-20px);
+        transform: translateX(360px) translateY(-10px) rotateY(180deg);
     }
     45% {
-        transform: translateX(450px) translateY(-20px);
+        transform: translateX(420px) translateY(-10px) rotateY(180deg);
     }
     50% {
-        transform: translateX(500px) translateY(-10px);
+        transform: translateX(480px) translateY(-10px);
     }
     55% {
-        transform: translateX(550px) translateY(5px);
+        transform: translateX(540px) translateY(-10px) rotate(180deg);
     }
     60% {
-        transform: translateX(600px) translateY(5px);
+        transform: translateX(600px) translateY(60px) rotate(225deg); /* Increment by 60px */
     }
     65% {
-        transform: translateX(650px) translateY(10px);
+        transform: translateX(660px) translateY(60px) rotate(270deg); /* Increment by 60px */
     }
     70% {
-        transform: translateX(700px) translateY(70px);
+        transform: translateX(720px) translateY(100px) rotate(315deg);
     }
     75% {
-        transform: translateX(750px) translateY(100px);
+        transform: translateX(780px) translateY(110px) rotate(350deg);
     }
     80% {
-        transform: translateX(800px) translateY(110px);
+        transform: translateX(840px) translateY(130px) rotate(360deg);
     }
     85% {
-        transform: translateX(850px) translateY(120px);
-    }
-    90% {
-        transform: translateX(900px) translateY(160px);
-    }
-    95% {
-        transform: translateX(950px) translateY(200px);
-    }
-    100% {
-        transform: translateX(1000px) translateY(260px);
+        transform: translateX(900px) translateY(145px) rotate(360deg);
     }
 }
 
 .snowboarder {
     position: relative;
-    animation: moveSnowboarder 6s linear;
+    animation-name: moveSnowboarder;
+    animation-duration: 5s;
+    animation-timing-function: linear;
     animation-iteration-count: 1;
-    animation-delay: 0.5s;
-}
 
+    transform-origin: center center;
+    /* Just for visibility */
+    width: 100px;
+    height: 100px;
+}
 @media (max-width: 747px) {
     .snowboarder {
         animation: none; /* Disable the animation on smaller screens */
     }
+}
+
+@keyframes nameSlide {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.name-slide {
+    position: relative;
+    animation-name: nameSlide;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transform-origin: center center;
 }
