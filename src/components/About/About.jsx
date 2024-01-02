@@ -14,6 +14,7 @@ function About() {
                         data-aos='slide-down'
                         data-aos-duration='1000'
                         data-aos-easing='ease-in'
+                        data-aos-once='true'
                         className='sm:text-right pb-8 pl-4'
                     >
                         <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
@@ -26,6 +27,7 @@ function About() {
                         data-aos='slide-up'
                         data-aos-easing='ease-in'
                         data-aos-duration='1000'
+                        data-aos-once='true'
                         className='sm:text-right text-4xl font-bold'
                     >
                         <p>Hi. I&apos;m Jacob Cochrane, nice to meet you.</p>
@@ -45,6 +47,7 @@ function About() {
                     <img
                         data-aos='zoom-in'
                         data-aos-duration='1000'
+                        data-aos-once='true'
                         src={character}
                         className='character hover:origin-top duration-300 transform hover:scale-110'
                         alt='character'

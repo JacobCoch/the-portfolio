@@ -26,7 +26,11 @@ function Skills() {
         <div name='skills' className='w-full h-auto bg-[#0a192f] text-gray-300'>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-                <div data-aos='fade-down-left' data-aos-duration='3000'>
+                <div
+                    data-aos='fade-down-left'
+                    data-aos-duration='3000'
+                    data-aos-once='true'
+                >
                     <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>
                         Skills
                     </p>

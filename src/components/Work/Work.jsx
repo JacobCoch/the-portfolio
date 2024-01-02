@@ -32,7 +32,11 @@ function Work() {
             className='w-full min-h-screen text-gray-300 bg-[#0a192f]'
         >
             <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full'>
-                <div data-aos='fade-down-left' data-aos-duration='3000'>
+                <div
+                    data-aos='fade-down-left'
+                    data-aos-duration='3000'
+                    data-aos-once='true'
+                >
                     <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 '>
                         Work
                     </p>
