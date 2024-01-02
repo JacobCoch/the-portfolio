@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.071a0278.css",
-    "main.js": "/static/js/main.6ce8f9c2.js",
+    "main.js": "/static/js/main.1fbc9f3c.js",
     "static/js/787.8b669c24.chunk.js": "/static/js/787.8b669c24.chunk.js",
     "static/media/dapper-dash.gif": "/static/media/dapper-dash.b9df0eb873e3089214c1.gif",
     "static/media/login-modal.png": "/static/media/login-modal.15dcae1bda6be27d0c78.png",
@@ -40,11 +40,11 @@
     "static/media/snowboarder.svg": "/static/media/snowboarder.de04c7edf6d7419c9d13a4ca5e432371.svg",
     "index.html": "/index.html",
     "main.071a0278.css.map": "/static/css/main.071a0278.css.map",
-    "main.6ce8f9c2.js.map": "/static/js/main.6ce8f9c2.js.map",
+    "main.1fbc9f3c.js.map": "/static/js/main.1fbc9f3c.js.map",
     "787.8b669c24.chunk.js.map": "/static/js/787.8b669c24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.071a0278.css",
-    "static/js/main.6ce8f9c2.js"
+    "static/js/main.1fbc9f3c.js"
   ]
 }
