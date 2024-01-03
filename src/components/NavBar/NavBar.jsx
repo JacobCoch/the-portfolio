@@ -38,7 +38,7 @@ function NavBar() {
                     </Link>
                 </li>
                 <li>
-                    <Link to='work' smooth duration={500} offset={-80}>
+                    <Link to='work' smooth duration={500} offset={-20}>
                         Work
                     </Link>
                 </li>

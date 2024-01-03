@@ -4,7 +4,7 @@ import dapperDash from "../assets/projects/dapper-dash.gif";
 import devmeetups from "../assets/projects/devmeetup.jpg";
 import myfliix from "../assets/projects/myflix.jpg";
 import mymovieapi from "../assets/projects/mymovieapi.png";
-import PokemonIndex from "../assets/projects/pokemonindex.png";
+import PokemonIndex from "../assets/projects/pokemongif.gif";
 import spotifyclone from "../assets/projects/spotifyclone.jpg";
 import tastebuds from "../assets/projects/tastebuds.jpg";
 
