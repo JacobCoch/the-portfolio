@@ -492,3 +492,7 @@ h3 {
     animation-iteration-count: 1;
     transform-origin: center center;
 }
+
+.content-div {
+    height: 300px !important;
+}
