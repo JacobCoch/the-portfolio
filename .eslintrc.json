@@ -36,7 +36,9 @@
     "react/no-array-index-key": "off",
     "no-undef":  "off",
     "no-unused-vars": "off",
-    "jsx-a11y/media-has-caption": "off"
+    "jsx-a11y/media-has-caption": "off",
+    "no-plusplus": "off",
+    "react/prop-types": "off"
   }
   
 }
