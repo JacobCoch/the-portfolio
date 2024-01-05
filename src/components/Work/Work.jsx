@@ -31,7 +31,7 @@ function Work() {
             name='work'
             className='w-full min-h-screen text-gray-300 bg-[#0a192f]'
         >
-            <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] mx-auto p-4 pt-20 flex flex-col justify-center w-full h-full relative'>
                 <div
                     data-aos='fade-down-left'
                     data-aos-duration='3000'

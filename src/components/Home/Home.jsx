@@ -3,8 +3,9 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-import "../../App.css";
 import snowboarder from "../../assets/snowboarder.svg";
+
+import "../../App.css";
 
 const Snowboarder = (
     <div className='snowboarder'>
@@ -16,7 +17,7 @@ function Home() {
     return (
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
             {/* Container */}
-            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative'>
                 <div>
                     {Snowboarder}
                     <h1 className='name-slide text-4xl sm:text-7xl font-bold text-[#ccd6f6] mr-20'>
@@ -24,7 +25,7 @@ function Home() {
                     </h1>
                 </div>
 
-                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]  mb-20 mr-20 '>
+                <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]  mb-10 mr-20 '>
                     Software Developer.
                 </h2>
                 <p className='text-[#8892b0] py-4 max-w-[600px] flex justify-center mr-23'>
