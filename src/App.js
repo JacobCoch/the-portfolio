@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import "./App.css";
 import About from "./components/About/About";
+import EarthCanvas from "./components/Canvas/Earth";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import Skills from "./components/Skills/Skills";
@@ -9,15 +10,37 @@ import Stars from "./components/Stars/Stars";
 import Work from "./components/Work/Work";
 
 function App() {
-    return (
-        <main>
-            <Stars backgroundColor={0x0a192f} />
+    const [loadingComplete, setLoadingComplete] = useState(false);
+    const [showContent, setShowContent] = useState(false);
 
-            <NavBar />
-            <Home />
-            <About />
-            <Skills />
-            <Work />
+    useEffect(() => {
+        // First timeout for Earth model display
+        setTimeout(() => {
+            setLoadingComplete(true);
+        }, 5000);
+
+        // Second timeout for content display
+        setTimeout(() => {
+            setShowContent(true);
+        }, 7000);
+    }, []);
+
+    return (
+        <main style={{ backgroundColor: "#0a192f" }}>
+            <EarthCanvas loading={!loadingComplete} />=
+            <div
+                style={{
+                    opacity: showContent ? 1 : 0,
+                    transition: "opacity 1s ease-in-out",
+                }}
+            >
+                <Stars backgroundColor={0x0a192f} />
+                <NavBar />
+                <Home />
+                <About />
+                <Skills />
+                <Work />
+            </div>
         </main>
     );
 }
