@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
@@ -14,8 +14,19 @@ const Snowboarder = (
 );
 
 function Home() {
+    const [fadeIn, setFadeIn] = useState(false);
+
+    useEffect(() => {
+        // Trigger the fade-in effect after the component is mounted
+        setFadeIn(true);
+    }, []);
     return (
-        <div name='home' className='w-full h-screen bg-[#0a192f]'>
+        <div
+            name='home'
+            className={`w-full h-screen bg-[#0a192f] ${
+                fadeIn ? "fade-in" : ""
+            }`}
+        >
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative'>
                 <div>

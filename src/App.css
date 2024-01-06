@@ -496,10 +496,3 @@ h3 {
 .content-div {
     height: 300px !important;
 }
-.loader {
-    transition: opacity 1s ease-in-out;
-}
-
-.fade-out {
-    opacity: 0;
-}

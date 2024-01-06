@@ -34,6 +34,7 @@ function EarthCanvas() {
                 position: "fixed",
                 width: "100%",
                 height: "100%",
+                opacity: "1",
             }}
         >
             <Suspense>
