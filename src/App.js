@@ -12,13 +12,12 @@ function App() {
     return (
         <main>
             <Stars backgroundColor={0x0a192f} />
-            <div style={{ zIndex: 1 }}>
-                <NavBar />
-                <Home />
-                <About />
-                <Skills />
-                <Work />
-            </div>
+
+            <NavBar />
+            <Home />
+            <About />
+            <Skills />
+            <Work />
         </main>
     );
 }
