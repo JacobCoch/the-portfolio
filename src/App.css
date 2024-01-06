@@ -461,7 +461,7 @@ h3 {
     animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
-
+    animation-delay: 7200ms;
     transform-origin: center center;
     /* Just for visibility */
     width: 100px;
@@ -492,6 +492,7 @@ h3 {
     animation-timing-function: linear;
     animation-iteration-count: 1;
     transform-origin: center center;
+    animation-delay: 7200ms;
 }
 
 .content-div {
