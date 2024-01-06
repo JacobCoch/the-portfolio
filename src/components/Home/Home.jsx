@@ -14,19 +14,8 @@ const Snowboarder = (
 );
 
 function Home() {
-    const [fadeIn, setFadeIn] = useState(false);
-
-    useEffect(() => {
-        // Trigger the fade-in effect after the component is mounted
-        setFadeIn(true);
-    }, []);
     return (
-        <div
-            name='home'
-            className={`w-full h-screen bg-[#0a192f] ${
-                fadeIn ? "fade-in" : ""
-            }`}
-        >
+        <div name='home' className='w-full h-screen bg-[#0a192f] '>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full relative'>
                 <div>

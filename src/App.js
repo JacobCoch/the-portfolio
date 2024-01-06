@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import "./App.css";
 import About from "./components/About/About";
@@ -11,25 +11,36 @@ import Work from "./components/Work/Work";
 
 function App() {
     const [loadingComplete, setLoadingComplete] = useState(false);
+    const [showContent, setShowContent] = useState(false);
 
-    setTimeout(() => {
-        setLoadingComplete(true);
-    }, 5000);
+    useEffect(() => {
+        // First timeout for Earth model display
+        setTimeout(() => {
+            setLoadingComplete(true);
+        }, 5000);
+
+        // Second timeout for content display
+        setTimeout(() => {
+            setShowContent(true);
+        }, 7000);
+    }, []);
 
     return (
-        <main>
-            <EarthCanvas loading={!loadingComplete} />
-            {loadingComplete && (
-                <>
-                    <Stars backgroundColor={0x0a192f} />
-
-                    <NavBar />
-                    <Home />
-                    <About />
-                    <Skills />
-                    <Work />
-                </>
-            )}
+        <main style={{ backgroundColor: "#0a192f" }}>
+            <EarthCanvas loading={!loadingComplete} />=
+            <div
+                style={{
+                    opacity: showContent ? 1 : 0,
+                    transition: "opacity 1s ease-in-out",
+                }}
+            >
+                <Stars backgroundColor={0x0a192f} />
+                <NavBar />
+                <Home />
+                <About />
+                <Skills />
+                <Work />
+            </div>
         </main>
     );
 }

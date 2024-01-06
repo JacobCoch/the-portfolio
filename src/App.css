@@ -11,8 +11,9 @@ html {
 
 .navigation-bar {
     z-index: 1;
+    position: fixed;
+    top: 0;
 }
-
 .redirect-buttons {
     display: flex;
     flex-direction: row;

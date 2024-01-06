@@ -16,9 +16,27 @@ function Earth() {
     );
 }
 
-function EarthCanvas() {
+function EarthCanvas({ loading }) {
+    const canvasStyle = loading
+        ? {
+              backgroundColor: "#0a192f",
+              position: "fixed",
+              width: "100%",
+              height: "100%",
+              opacity: "1",
+          }
+        : {
+              backgroundColor: "#0a192f",
+              position: "fixed",
+              width: "100%",
+              height: "100%",
+              opacity: "1",
+              transform: "translateY(-100%)",
+              transition: "transform 1s ease",
+          };
     return (
         <Canvas
+            style={canvasStyle}
             shadows
             frameloop='demand'
             dpr={[1, 2]}
@@ -28,13 +46,6 @@ function EarthCanvas() {
                 near: 0.1,
                 far: 200,
                 position: [-4, 3, 6],
-            }}
-            style={{
-                backgroundColor: "#0a192f",
-                position: "fixed",
-                width: "100%",
-                height: "100%",
-                opacity: "1",
             }}
         >
             <Suspense>
