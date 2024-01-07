@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7aa4aab.css",
-    "main.js": "/static/js/main.cdac8c1b.js",
+    "main.css": "/static/css/main.c2a0cbac.css",
+    "main.js": "/static/js/main.5f6ae0e9.js",
     "static/js/787.8b669c24.chunk.js": "/static/js/787.8b669c24.chunk.js",
     "static/media/dapper-dash.gif": "/static/media/dapper-dash.b9df0eb873e3089214c1.gif",
     "static/media/login-modal.png": "/static/media/login-modal.15dcae1bda6be27d0c78.png",
@@ -39,12 +39,12 @@
     "static/media/python.png": "/static/media/python.f5d238d129f0f9fd6bae.png",
     "static/media/snowboarder.svg": "/static/media/snowboarder.de04c7edf6d7419c9d13a4ca5e432371.svg",
     "index.html": "/index.html",
-    "main.d7aa4aab.css.map": "/static/css/main.d7aa4aab.css.map",
-    "main.cdac8c1b.js.map": "/static/js/main.cdac8c1b.js.map",
+    "main.c2a0cbac.css.map": "/static/css/main.c2a0cbac.css.map",
+    "main.5f6ae0e9.js.map": "/static/js/main.5f6ae0e9.js.map",
     "787.8b669c24.chunk.js.map": "/static/js/787.8b669c24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7aa4aab.css",
-    "static/js/main.cdac8c1b.js"
+    "static/css/main.c2a0cbac.css",
+    "static/js/main.5f6ae0e9.js"
   ]
 }
