@@ -75,7 +75,7 @@ function NavBar() {
                         to='about'
                         smooth
                         duration={500}
-                        offset={-30}
+                        offset={-80}
                     >
                         About
                     </Link>
