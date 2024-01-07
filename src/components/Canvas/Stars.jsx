@@ -25,7 +25,7 @@ function Stars({ backgroundColor = 0x0a192f }) {
         const starsGeometry = new THREE.BufferGeometry();
         const starsMaterial = new THREE.PointsMaterial({
             color: 0xffffff,
-            size: 1,
+            size: 2,
         });
         const starsVertices = [];
 
