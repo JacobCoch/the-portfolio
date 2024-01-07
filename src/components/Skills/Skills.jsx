@@ -1,7 +1,5 @@
 import React from "react";
 
-import { FaVuejs } from "react-icons/fa";
-
 import Angular from "../../assets/angular.png";
 import Aws from "../../assets/aws.png";
 import Bootstrap from "../../assets/bootstrap.png";

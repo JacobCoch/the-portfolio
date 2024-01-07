@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import About from "./components/About/About";
 import EarthCanvas from "./components/Canvas/Earth";
+import Stars from "./components/Canvas/Stars";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
 import Skills from "./components/Skills/Skills";
-import Stars from "./components/Stars/Stars";
 import Work from "./components/Work/Work";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         // Second timeout for content display
         setTimeout(() => {
             setShowContent(true);
-        }, 7000);
+        }, 6000);
     }, []);
 
     return (
@@ -31,7 +31,8 @@ function App() {
             <div
                 style={{
                     opacity: showContent ? 1 : 0,
-                    transition: "opacity 1s ease-in-out",
+                    transition: "opacity 1.5s ease-in-out",
+                    willChange: "opacity",
                 }}
             >
                 <Stars backgroundColor={0x0a192f} />
